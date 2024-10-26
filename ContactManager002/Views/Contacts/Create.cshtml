@@ -1,0 +1,27 @@
+﻿@model Contact
+
+<h1>Add Contact</h1>
+
+<form asp-action="Create">
+    <div>
+        <label>First Name</label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label>Last Name</label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label>Phone</label>
+        <input asp-for="Phone" />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label>Category</label>
+        <input asp-for="Category" />
+    </div>
+    <button type="submit">Add Contact</button>
+</form>

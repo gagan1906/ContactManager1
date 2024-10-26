@@ -1,0 +1,25 @@
+body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+h1 {
+    color: #343a40; /* Dark text for headings */
+}
+
+.table th {
+    background-color: #007bff; /* Bootstrap primary color for table header */
+    color: white; /* White text for header */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e9ecef; /* Light gray for odd rows */
+}
+
+.table th,
+.table td {
+    vertical-align: middle; /* Center align cell content */
+}
+
+.btn {
+    margin-right: 5px; /* Spacing between buttons */
+}
